@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Landing Page</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Brand/Logo (optional) -->
+      <a class="navbar-brand" href="#">
+        <img src="./assets/logo.png" alt="Logo" class="small-logo">
+      </a>
+      <!-- Toggler for small screens -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Universities</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="container-fluid  text-dark py-5">
+    <div class="row align-items-center">
+      <!-- Heading in the Middle -->
+      <div class="col-md-6 text-center">
+        <h1 class="display-6">UJ alumnus wins TIA Global Cleantech</h1>
+      </div>
+
+      <!-- Search Area on the Right -->
+      <div class="col-md-6 text-end">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn bg-primary text-light"  type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <section class="container my-5">
+    <div class="d-flex flex-column flex-lg-row justify-content-between">
+      <!-- Left Div -->
+      <div class="d-flex flex-column mb-4 mb-lg-0" style="width: 100%; max-width: 100%;">
+        <h2 class="mb-3">Faculty of Engineering and the Built Environment</h2>
+        <p class="text-muted mb-2">Author: Zwelihle Comet</p>
+        <p class="text-muted mb-3">Date: March 26, 2025</p>
+        <p>
+            University of Johannesburg alumnus Mr Mogale Maleka has been awarded the prestigious Technology 
+            Innovation Agency (TIA) Global Cleantech Innovation Programme (GCIP-SA) 2025 award for his groundbreaking 
+            work in sustainable agriculture. The (TIA) GCIP-SA celebrates the brightest innovators in cleantech, 
+            recognising individuals and projects that are driving environmental solutions and shaping a sustainable 
+            future.The awards, held on 20 March 2025 at The Maslow Hotel in Johannesburg, highlighted Maleka’s 
+            innovative hydroponic farming system that addresses key challenges in South Africa’s 
+            agricultural sector.Maleka credits his time at UJ’s Faculty of Engineering and the Built Environment 
+            (FEBE) for shaping his approach to innovation. “The faculty encouraged problem-solving, critical thinking, 
+            and applying engineering principles to real-world challenges. It was a space where creativity met 
+            practicality, giving me the tools to approach problems methodically while thinking outside the box,” 
+            he shares. This experience directly aligns with UJ’s strategic goals of fostering impactful, solution-driven 
+            research.The inspiration for AB Farms stemmed from Maleka’s personal experiences with the challenges 
+            faced by South African farmers, such as water scarcity, unreliable electricity, and shrinking arable land. 
+            Determined to find an alternative, he developed a hydroponic system that drastically reduces water consumption, 
+            maximises space efficiency, and enables year-round food production.
+        </p>
+        <hr>
+
+        <div class="container" style="width: 100%; max-width: 100%;">
+            <div class="text-center mb-4">
+              <h5>More to Read</h5>
+            </div>
+        
+            <!-- Slideshow -->
+            <div class="slideshow-container">
+              <div class="slideshow-track" id="slideshowTrack">
+                <!-- Card 1 -->
+                <div class="slideshow-card">
+                    <div>
+                        <img src="./assets/first-article.png" alt="Related Article 1">
+                    </div>
+                    <div class="card-body mt-2">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="slideshow-card">
+                    <div>
+                        <img src="./assets/second-article.jpg" alt="Card Image 2">
+                    </div>
+                    <div class="card-body mt-2">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="slideshow-card">
+                    <div>
+                        <img src="./assets/third-article.jpg" alt="Card Image 3">
+                    </div>
+                    <div class="card-body mt-2">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="slideshow-card">
+                    <div>
+                        <img src="./assets/fourth-article.jpg" alt="Card Image 4">
+                    </div>
+                    <div class="card-body mt-2">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+                <!-- Card 5 -->
+                <div class="slideshow-card">
+                    <div>
+                        <img src="./assets/fifth-article.jpeg" alt="Card Image 5">
+                    </div>
+                    <div class="card-body mt-2">
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Right Div (Placeholder for now) -->
+      <div class="d-flex flex-column" style="width: 100%; max-width: 100;">
+
+        <!-- Article 1 -->
+        <div>
+        <h2 class="mb-4 px-5">Related Articles</h2>
+
+        <!-- Article 1 -->
+        <div class="mb-4 p-5">
+          <img src="./assets/first-article.png" class="img-fluid rounded mb-3" alt="Related Article 1">
+          <h6 class="mb-3">Opinion: A Milestone for Global Happiness – Centring Africa’s Wisdom in Well-being Research</h6>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+
+        <!-- Article 2 -->
+        <div class="mb-4 p-5">
+          <img src="./assets/second-article.jpg" class="img-fluid rounded mb-3" alt="Related Article 2">
+          <h6 class="mb-3">Vice-Chancellor Message – 28 March 2025</h6>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+
+        <!-- Article 3 -->
+        <!-- <div>
+          <img src="./assets/third-article.jpg" class="img-fluid rounded mb-3" alt="Related Article 3">
+          <h6 class="mb-3">Pioneering green innovation in cancer treatment</h6>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div> -->
+
+                <!-- Article 4 -->
+        <!-- <div>
+            <img src="./assets/fourth-article.jpg" class="img-fluid rounded mb-3" alt="Related Article 3">
+            <h6 class="mb-3">Article Title 4</h6>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div> -->
+
+                <!-- Article 5 -->
+        <!-- <div>
+            <img src="./assets/fifth-article.jpeg" class="img-fluid rounded mb-3" alt="Related Article 3">
+            <h6 class="mb-3">Article Title 5</h6>
+            <a href="#" class="btn btn-primary">Read More</a>
+        </div> -->
+      </div>
+      </div>
+    </div>
+    <hr>
+  </section>
+
+  <!-- Footer -->
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <!-- About Section -->
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5 class="mb-3">About Us</h5>
+          <p>
+            Vibrant, multicultural and dynamic, the University of Johannesburg (UJ) shares the pace and energy of 
+            cosmopolitan Johannesburg, the city whose name it carries. Proudly South African, the university is alive 
+            down to its African roots, and well-prepared for its role in actualising the potential that higher education 
+            holds for the continent’s development.
+          </p>
+          <div class="d-flex gap-3">
+            <!-- Social Media Icons -->
+            <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+  
+        <!-- Quick Links -->
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h5 class="mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">Study@UJ</a></li>
+            <li><a href="#" class="text-white text-decoration-none">News</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Opinion</a></li>
+            <li><a href="#" class="text-white text-decoration-none">For Journalists</a></li>
+            <li><a href="#" class="text-white text-decoration-none">UJTV</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Information -->
+        <div class="col-md-4">
+          <h5 class="mb-3">Contact Us</h5>
+          <p><i class="bi bi-geo-alt-fill me-2"></i>news@uj.co.za</p>
+          <p><i class="bi bi-telephone-fill me-2"></i>UJ on Empire, Cnr Empire and Berry Hertzog Road</p>
+          <p><i class="bi bi-envelope-fill me-2"></i>info@uj.com</p>
+        </div>
+      </div>
+  
+      <!-- Copyright Section -->
+      <div class="text-center mt-5">
+        <p class="mb-0">&copy; 2025  Burzars. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Bootstrap Icons CSS (Optional, for Social Media Icons) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+
+  <!-- Bootstrap JS (Optional, for toggler functionality) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="./index.js"></script>
+</body>
+</html>
